@@ -9,7 +9,8 @@ services:
     ports:
       - "8000:8000"
     restart: always
-    # environment:
-    #   - name=value
+    environment:
+      - SECRET_KEY=test
+      - DEBUG=True
 
 
